@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyfitstat"
+version = "0.1.0"
+description = "library to control the Fit-statUSB indicator LED"
+authors = ["Alex Puffer <alex.puffer@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyserial = "^3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+black = "^21.9b0"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
