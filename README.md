@@ -21,3 +21,11 @@ B                       - Set Fade transition Colors B#RRGGBB-tttt#RRGGBB....
 
 Firmware Revision: V0.9.6
 ```
+
+## Development
+```
+pip install poetry
+
+# Unless specified with --no-dev, poetry installs all dev dependencies
+poetry install
+```
